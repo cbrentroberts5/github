@@ -1,0 +1,46 @@
+Here are the complete steps to create a GitHub repo from a local folder:
+
+Step 1 — Create the repo on GitHub:
+Go to https://github.com/new, name it, set it to Private, and do NOT initialize with any files. Click Create repository.
+
+Step 2 — Navigate to your local folder:
+
+cd R:\CHERP_Shares2\Weiner_Mark\DBMGMT\Roberts\aaa_desktop\code_other\git\repository1\copilot
+
+This sets your terminal to the folder you want to turn into a repo.
+
+Step 3 — Initialize Git:
+
+git init
+
+This creates a .git folder, making it a Git repository.
+
+Step 4 — Link to your GitHub repo:
+
+git remote add origin https://github.com/cbrentroberts5/copilot.git
+
+This connects your local folder to the remote GitHub repository.
+
+Step 5 — Stage all files:
+
+git add .
+
+This tells Git to track all files in the folder.
+
+Step 6 — Commit the files:
+
+git commit -m "Initial commit"
+
+This saves a snapshot of your staged files with a message.
+
+Step 7 — Rename the branch to main:
+
+git branch -M main
+
+GitHub uses "main" as the default branch name. This renames "master" to "main".
+
+Step 8 — Push to GitHub:
+
+git push -u origin main
+
+This uploads your commit to GitHub. The -u flag sets "origin main" as the default so future pushes only need "git push".
