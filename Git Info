@@ -1,0 +1,41 @@
+Run these commands one at a time:
+
+Username:
+git config --global user.name
+> cbrentroberts5
+
+Email:
+git config --global user.email
+> Christopher.Roberts5@va.gov
+
+Remote URL (run from inside a repo folder):
+git remote -v
+>origin  https://github.com/cbrentroberts5/copilot.git (fetch)
+origin  https://github.com/cbrentroberts5/copilot.git (push)
+
+Current branch:
+git branch
+> * main
+
+Repo status (staged/unstaged files):
+git status
+>On branch main
+Your branch is up to date with 'origin/main'.
+
+Where Git is installed:
+where.exe git
+> C:\Users\vhaphiroberc\AppData\Local\Programs\Git\cmd\git.exe
+
+Git version:
+git --version
+> git version 2.51.0.windows.1
+
+Full global config:
+git config --global --list
+>filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+user.name=cbrentroberts5
+user.email=Christopher.Roberts5@va.gov
+core.editor="C:\Users\vhaphiroberc\AppData\Local\Programs\Microsoft VS Code\bin\code" --wait
