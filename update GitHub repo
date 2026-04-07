@@ -1,0 +1,11 @@
+when files updated, to update GitHub repo:
+
+Run these three commands from inside the repo folder:
+
+git add .
+
+git commit -m "your message here"
+
+git push
+
+Replace "your message here" with a short description of what you changed, for example "Update analysis script" or "Fix data formatting". Same three steps every time: add, commit, push.
