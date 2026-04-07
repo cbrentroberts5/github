@@ -1,0 +1,16 @@
+updating repository thru git on vs code (added new folder and files):
+
+Make sure you're in the repo folder. If not:
+
+cd R:\CHERP_Shares2\Weiner_Mark\DBMGMT\Roberts\aaa_desktop\code_other\git\repository1\copilot
+
+Then run these three commands in order:
+
+Stage the new files:
+git add .
+
+Commit with a message describing the change:
+git commit -m "Add docs folder"
+
+Push to GitHub:
+git push
