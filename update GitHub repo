@@ -9,3 +9,35 @@ git commit -m "your message here"
 git push
 
 Replace "your message here" with a short description of what you changed, for example "Update analysis script" or "Fix data formatting". Same three steps every time: add, commit, push.
+
+
+-------------------------
+
+--------
+PROMPT
+--------
+software: git with VSCode and GitHub
+
+input:
+Rstudio repository
+\\r04.med.va.gov\v04\PHI\Research\CHERP_Shares2\Weiner_Mark\DBMGMT\Roberts\aaa_desktop\code_other\git\repository1\Rstudio
+
+task:
+I've done numerous updates to files and folders within the git repository.
+what steps do i need to complete to update the already connected and assigned GitHub repository.
+
+--------
+OUTPUT
+--------
+
+Navigate to the repo using the mapped drive, then add, commit, and push:
+
+cd R:\CHERP_Shares2\Weiner_Mark\DBMGMT\Roberts\aaa_desktop\code_other\git\repository1\Rstudio
+
+git add .
+
+git commit -m "Update files and folders"
+
+git push
+
+Run them one at a time in your terminal. That's it — same three steps (add, commit, push) every time you want to sync changes to GitHub.
