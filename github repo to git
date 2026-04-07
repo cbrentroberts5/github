@@ -1,0 +1,17 @@
+Run this to clone the repo to your local folder:
+
+Step 1 — Navigate to the parent folder:
+
+cd R:\CHERP_Shares2\Weiner_Mark\DBMGMT\Roberts\aaa_desktop\code_other\git\repository1
+
+Step 2 — Clone the repo:
+
+git clone https://github.com/cbrentroberts5/github.git
+
+This will create a folder called github inside repository1 with all the files from the GitHub repository, already connected and ready to use.
+
+Step 3 — Verify:
+
+cd github
+
+git status
