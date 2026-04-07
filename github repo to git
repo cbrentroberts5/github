@@ -15,3 +15,24 @@ Step 3 — Verify:
 cd github
 
 git status
+
+------------------------
+
+prompt:
+i just updated file 'update GitHub repo'. saved and committed. is there any final step to complete this file change permanently?
+i did the changes on github. not locally.
+what steps do i need to do to update the local git version?
+
+output:
+To update your local git version with the changes you made on GitHub, run this command from your terminal in the repo folder:
+
+bash
+git pull
+That's it! This fetches the latest changes from GitHub and merges them into your local branch.
+
+If you want to be more explicit, you can also run:
+
+bash
+git fetch origin
+git merge origin/main
+But git pull is the simpler one-command approach and will sync your local repository with the updates you made on GitHub.
