@@ -1,0 +1,41 @@
+adding to GitHub where repository already of same name created
+
+Run these one at a time:
+
+Step 1 — Navigate to the folder:
+
+cd R:\CHERP_Shares2\Weiner_Mark\DBMGMT\Roberts\aaa_desktop\code_other\git\repository1\Rstudio
+
+Step 2 — Initialize Git:
+
+git init
+
+Step 3 — Link to your GitHub repo:
+
+git remote add origin https://github.com/cbrentroberts5/Rstudio.git
+
+Step 4 — Stage all files:
+
+git add .
+
+Step 5 — Commit:
+
+git commit -m "Initial commit"
+
+Step 6 — Rename branch to main:
+
+git branch -M main
+
+Step 7 — Push to GitHub:
+
+git push -u origin main
+
+Run this to verify locally:
+
+git log --oneline
+
+This shows your commit history. You should see your "Initial commit" listed.
+
+Then verify on GitHub by visiting:
+
+https://github.com/cbrentroberts5/Rstudio
