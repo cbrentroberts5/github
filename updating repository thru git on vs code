@@ -14,3 +14,14 @@ git commit -m "Add docs folder"
 
 Push to GitHub:
 git push
+
+
+#---------------------
+
+# --- Update python repo ---
+cd R:\CHERP_Shares2\Weiner_Mark\DBMGMT\Roberts\aaa_desktop\code_other\git\repository1\python
+git add .
+git commit -m "your commit message here"
+git push origin main
+
+You can verify a folder is a git repo by checking if git status works from inside it. If main doesn't work, try git branch to see your branch name — it may be master.
